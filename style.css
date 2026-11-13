@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playpen Sans", cursive;
+}
+
+body {
+    background-color: white;
+}
+
+.stage {
+    position: relative;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bannerSize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 320px;
+    top: 60px;
+    left: 115px;
+    background-color: rgb(166, 68, 231);
+
+}
+
+.stage2 {
+    position: relative;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bannerSize2 {
+    width: 720px;
+    height: 313px;
+    top: -266px;
+    left: 410px;
+    background-color: white;
+    justify-items: left;
+}
+
+.title {
+    margin: 3%;
+}
+
+.Iimg {
+    width: 267px;
+    height: 300px;
+}
+
+nav {
+    background-color: rgb(166, 68, 231);
+    padding-left: 90px;
+    font-size: 30px;
+
+    ul {
+        display: flex;
+        gap: 70px;
+        list-style: none;
+    }
+
+    .email {
+        font-size: 80%;
+       
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    li {
+
+        position: relative;
+    }
+
+    .drop-down {
+        display: none;
+        position: absolute;
+        top: 18%;
+        left: 0;
+        width: 260px;
+        background-color: rgb(166, 68, 231);
+        gap: 3px;
+
+    }
+
+    li:hover .drop-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Project a:hover {
+        color: black;
+    }
+
+    a.clau:hover {
+        color: black;
+    }
+}
+
+.clau{
+    margin-left: 300px;
+}
+
+.overdidiel {
+    position: relative;
+    top: -170px;
+    /*background-color: rgb(166, 68, 231);*/
+}
+
+h1 {
+    text-align: center;
+    color: #572787;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+h3 {
+    text-align: center;
+    color: #572787;
+}
+
+ul {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+p {
+    color: black;
+    margin-block: 3%;
+}
+
+.purple {
+    color: rgb(166, 68, 231);
+    /* text-decoration: underline; */
+    text-decoration-color: rgb(166, 68, 231);
+}
